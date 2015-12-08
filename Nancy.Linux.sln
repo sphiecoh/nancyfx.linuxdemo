@@ -5,6 +5,14 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.Linux", "Nancy.Linux\Nancy.Linux.csproj", "{35460AA4-B94A-4B64-9418-7243EC3D2F01}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{6EA2DF46-A9BE-4D6E-A368-12CC5DC74E4D}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Mono.Posix.dll = Build\Mono.Posix.dll
+		Build\Nancy.dll = Build\Nancy.dll
+		Build\Nancy.Hosting.Self.dll = Build\Nancy.Hosting.Self.dll
+		Build\Nancy.Linux.exe = Build\Nancy.Linux.exe
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
